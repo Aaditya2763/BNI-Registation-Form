@@ -1,0 +1,23 @@
+@import './assets/css/stylesheet.css';
+@import './assets/css/color-green.css';
+@import './assets/css/color-orange.css';
+@import './assets/css/color-red.css';
+@import './assets/css/color-pink.css';
+@import './assets/css/color-purple.css';
+@import './assets/css/color-teal.css';
+@import './assets/vendor/bootstrap/css/bootstrap.min.css'
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-tel-input .form-control {
+  @apply !w-full py-6 !text-base;
+}
+
+.opt-container {
+  @apply flex justify-between gap-2;
+}
+.opt-container input {
+  @apply !mr-0 flex-1 py-5 outline-none;
+}
